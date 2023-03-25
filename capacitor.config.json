@@ -1,0 +1,6 @@
+{
+  "appId": "com.kaboomblankprojecttemplate.app",
+  "appName": "kaboomblankprojecttemplate",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

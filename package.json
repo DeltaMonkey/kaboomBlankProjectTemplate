@@ -1,0 +1,29 @@
+{
+  "name": "kaboomblankprojecttemplate",
+  "version": "1.0.0",
+  "description": "blank project for kaboom js with capacitor",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeltaMonkey/kaboomBlankProjectTemplate.git"
+  },
+  "author": "Engincan Özkan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DeltaMonkey/kaboomBlankProjectTemplate/issues"
+  },
+  "homepage": "https://github.com/DeltaMonkey/kaboomBlankProjectTemplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "kaboom": "^3000.0.0-beta.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "@parcel/transformer-js": {
+    "inlineEnvironment": true
+  }
+}
