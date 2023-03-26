@@ -1,7 +1,7 @@
 import k from './kaboom'
 
-//add game scenes
+k.scene('test', () => {
+	console.log("test scene loaded")
+})
 
-k
-
-//k.start("your_game_scene")
+k.go('test')
